@@ -1,0 +1,170 @@
+==============================================================================================================
+General Information
+==============================================================================================================
+
+Printer Driver Name.....: "winspool".
+Printer Device Name.....: "Microsoft Print to PDF".
+Printer Output Name.....: "PORTPROMPT:".
+Physical Page Size......: 8.27" x 11.69" (210.02mm x 297.01mm).
+Printable Area..........: 8.27" x 11.69" (210.02mm x 297.01mm).
+Printable Area Indent...: 0.00" (0.00mm) from left, 0.00" (0.00mm) from top.
+
+==============================================================================================================
+Dump of Device Capabilities
+==============================================================================================================
+
+The following represents the output of calls to the Windows API GetDeviceCaps()
+function:
+
+Device driver version..................................(DRIVERVERSION)....: 204.81
+Device technology......................................(TECHNOLOGY).......: Raster printer (2)
+Device width  (millimeters)............................(HORZSIZE).........: 210
+Device height (millimeters)............................(VERTSIZE).........: 297
+Device width  (pixels).................................(HORZRES)..........: 4961
+Device height (pixels).................................(VERTRES)..........: 7016
+Pixels per logical inch (X)............................(LOGPIXELSX).......: 600
+Pixels per logical inch (Y)............................(LOGPIXELSY).......: 600
+Colour resolution (bits/pixel).........................(BITSPIXEL)........: 32
+Numberof color planes..................................(PLANES)...........: 1
+Number of markers......................................(NUMMARKERS).......: 0
+Number of device-specific brushes......................(NUMBRUSHES).......: -1
+Numberof device-specific pens..........................(NUMPENS)..........: 40
+Number of device-specific fonts........................(NUMFONTS).........: 0
+Number of entries in the system color table/palette....(SIZEPALETTE)......: 0
+Number of entries in the device's color table/palette..(NUMCOLORS)........: 8
+Actual color resolution of the device (bits/pixel).....(COLORRES).........: 0
+Pixelaspect ratio (x)..................................(ASPECTX)..........: 600
+Pixelaspect ratio (y)..................................(ASPECTY)..........: 600
+Pixelaspect ratio (xy).................................(ASPECTXY).........: 848
+Device supports rectangular clipping...................(CLIPCAPS).........: Yes
+Physical page width (pixels)...........................(PHYSICALWIDTH)....: 4961
+Physical page height (pixels)..........................(PHYSICALHEIGHT)...: 7016
+Left page margin (pixels)..............................(PHYSICALOFFSETX)..: 0
+Top page margin (pixeels)..............................(PHYSICALOFFSETY)..: 0
+Scaling factor for the x-axis of the printer...........(SCALINGFACTORX)...: 0
+Scaling factor for the y-axis of the printer...........(SCALINGFACTORY)...: 0
+Preferred horizontal drawing alignment (pixels)........(BLTALIGNMENT).....: 0
+
+Raster Capabilities....................................(RASTERCAPS).......: 0x00006E99.
+   Requires banding support...............................................: No
+   Supports fonts greater than 64k........................................: Yes
+   Supports transferring bitmaps..........................................: Yes
+   Supports bitmaps larger than 64k.......................................: Yes
+   Supports device bitmaps................................................: No
+   Supports the SetDIBits and GetDIBits functions.........................: Yes
+   Supports the SetDIBitsToDevice function................................: Yes
+   Supports flood fills...................................................: No
+   Supports features of Windows 2.0 (RC_GDI20_OUTPUT).....................: Yes
+   Supports features of Windows 2.0 (RC_GDI20_STATE)......................: No
+   Undocumented (RC_OP_DX_OUTPUT).........................................: Yes
+   Is a palette-based device..............................................: No
+   Saves bitmaps locally in shadow memory.................................: No
+   Supports scaling.......................................................: No
+   Supports StretchBlt function...........................................: Yes
+   Supports StretchDIBits function........................................: Yes
+
+Curve Capabilities.....................................(CURVECAPS)........: 0x000001FF.
+   Can draw circles.......................................................: Yes
+   Can draw pie wedges....................................................: Yes
+   Can draw chord arcs....................................................: Yes
+   Can draw ellipses......................................................: Yes
+   Can draw wide borders..................................................: Yes
+   Can draw styled borders................................................: Yes
+   Can draw borders that are wide and styled..............................: Yes
+   Can draw interiors.....................................................: Yes
+   Can draw rounded rectangles............................................: Yes
+
+Line Capabilities......................................(LINECAPS).........: 0x000000FE.
+   Can draw a polyline....................................................: Yes
+   Can draw a marker......................................................: Yes
+   Can draw multiple markers..............................................: Yes
+   Can draw wide lines....................................................: Yes
+   Can draw styled lines..................................................: Yes
+   Can draw lines that are wide and styled................................: Yes
+   Can draw interiors.....................................................: Yes
+
+Polygon Capabilities...................................(POLYGONALCAPS)....: 0x000000FF.
+   Can draw alternate-fill polygons.......................................: Yes
+   Can draw rectangles....................................................: Yes
+   Can draw winding-fill polygons.........................................: Yes
+   Can draw trapezoids....................................................: Yes
+   Can draw a single scanline.............................................: Yes
+   Can draw wide borders..................................................: Yes
+   Can draw styled borders................................................: Yes
+   Can draw borders that are wide and styled..............................: Yes
+   Can draw interiors.....................................................: Yes
+   Can draw poly-polygons.................................................: No
+   Can draw PATHS.........................................................: No
+
+Text Capabilities......................................(TEXTCAPS).........: 0x00005D37.
+   Device is capable of character output precision........................: Yes
+   Device is capable of stroke output precision...........................: Yes
+   Device is capable of stroke clip precision.............................: Yes
+   Device is capable of 90-degree character rotation......................: No
+   Device is capable of any character rotation............................: Yes
+   Device can scale independently in the x- and y-directions..............: Yes
+   Device is capable of doubled character for scaling.....................: No
+   Device uses integer multiples only for character scaling...............: No
+   Device uses any multiples for exact character scaling..................: Yes
+   Device can draw double-weight characters...............................: No
+   Device can italicize...................................................: Yes
+   Device can underline...................................................: Yes
+   Device can draw strikeouts.............................................: Yes
+   Device can draw raster fonts...........................................: No
+   Device can draw vector fonts...........................................: Yes
+   Device cannot scroll using a bit-block transfer........................: No
+
+Shading Capabilities...................................(SHADEBLENDCAPS)...: None.
+   Handles the SourceConstantAlpha member of BLENDFUNCTION structure......: No
+   Can gradient fill rectangles...........................................: No
+   Can gradient fill triangles............................................: No
+   Handles per-pixel alpha in AlphaBlend..................................: No
+   Handles premultiplied alpha in AlphaBlend..............................: No
+
+==============================================================================================================
+Dump of Device Mode
+==============================================================================================================
+
+The following represents a dump of the DEVMODE structure returned by PrintDlg()
+for the printer. If you have used the Printer Setup option then this structure
+should reflect any changes made to the printer configuration.
+
+Specification Version...........: 10.25
+Driver Version..................: 15.39
+Compiled DEVMODE Structure size.: 156 bytes
+Base     DEVMODE structure size.: 156 bytes
+Extra    DEVMODE structure size.: 5200 bytes
+
+Fields assigned in DEVMODE structure: 0x00012F03
+   Orientation..................: Portrait
+   Standard paper size..........: A4 210 x 297 mm
+   Paper length (tenths of mm)..: Not assigned but field contains: 2970 
+   Paper width  (tenths of mm)..: Not assigned but field contains: 2100 
+   Scaling (percent)............: Not assigned.
+   Number of printed copies.....: 1 
+   Paper source.................: DMBIN_FORMSOURCE
+   Printer quality..............: 600 DPI
+   Color/monochrome mode........: Colour
+   Duplex printing mode.........: Not assigned.
+   Y resolution (DPI)...........: 600 
+   TrueType fonts handled as....: Not assigned.
+   Ouput is collated............: Not assigned.
+   ICMMethod....................: Not assigned.
+   ICMIntent....................: Not assigned.
+   MediaType....................: Not assigned.
+   DitherType...................: Not assigned.
+   Position.....................: Not assigned.
+   Form Name....................: 'A4'
+   Pixels Per Logical Inch......: Not assigned.
+   Bits per Pixel...............: Not assigned.
+   Pixel Width..................: Not assigned.
+   Pixel Heighy.................: Not assigned.
+   Display Flags................: Not assigned.
+   Where NUP Is Done............: Not assigned.
+   Display Frequency............: Not assigned.
+   Panning Width................: Not assigned.
+   Panning Height...............: Not assigned.
+
+A 'Not Assigned' means that this field of the DEVMODE structure was not
+initialised by the device.
+
